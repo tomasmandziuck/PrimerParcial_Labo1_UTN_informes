@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <ctype.h>
 #include <string.h>
-#include "electrodomesticos.h"
+
 #include "utn.h"
 
 int faGets(char *string, int leng) {
@@ -168,3 +168,4 @@ int utn_getString(char *elString, char *mensaje, char *mensajeError,int minimo, 
 
 	return retorno;
 }
+
